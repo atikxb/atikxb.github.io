@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Security Trainings -Training Application From</title>
+    <link rel="icon" href="images/fav.png" sizes="16x16" type="image/png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+<style>
+  .block-9 h5{margin-top: 30px;}
+  input[type=submit]{width: 50%;display: block;margin: auto;}
+   @media (max-width: 576px) {input[type=submit]{width: 100%;}}
+  }
+</style>
+    
+  </head>
+  <body>
+    
+ <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img class="w-25" src="images/logo.png" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="oi oi-menu"></span> Menu
+      </button>
+
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="course.html" class="nav-link">Trainings</a></li>
+           <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>        
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <!-- END nav -->
+    
+    
+    <section class="trainform py-5">
+      <div class="container ">
+
+        <div class="row ">
+          <div class="col-sm-4 col-6 border border-1 text-center" >
+            <h1><b>Door Supervisor Training Form</b></h1>
+          </div>
+          <div class="col-sm-4 col-6 border border-1">
+            <img class="form_logo" src="images/logo2.png" alt="logo">
+          </div>
+          <div class="col-sm-4 border border-1 text-right">
+            <p>5-11 Hares View<br>
+               Leeds, LS8 4LH</p>
+            <p>Tel: 0113 322 6557 <br>
+               www.ehouse.org. <br>
+               info@ ehouse.org.uk</p>
+          </div>
+        </div>
+        
+
+        <div class="row block-9">
+          <div class="col-md-12 pr-md-5">
+            <h5 class="mb-4">Personal Details</h5>
+            <form action="sentform.php" method="post" enctype="multipart/form-data">
+              
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="form-group">
+                <input type="text" class="form-control" placeholder="Surname*" name="surname">
+              </div>
+                </div>
+                <div class="col-sm-6">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Forename*" name="forname">
+              </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="form-group">
+                <input type="text" class="form-control" placeholder="Email Address" name="email">
+              </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-group">
+                <input type="text" class="form-control" placeholder="Contact Number" name="number">
+              </div>
+                </div>
+                
+              </div>
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="form-group">
+                <input  style="color: gray!important" class="form-control" type="text" placeholder="Date of Birth"  onfocus="(this.type='date')" onblur="(this.type='text')" / name="dob">
+              </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-group">
+                <input type="text" class="form-control" placeholder="NINO " name="nino">
+              </div>
+                </div>
+                
+              </div>
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="form-group">
+                <input style="cursor: not-allowed;" type="text" disabled="disabled" class="form-control" placeholder="ULN (Office use only)">
+              </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-group">
+                <input type="text" class="form-control" placeholder="Title" name="title">
+              </div>
+                </div>
+                
+              </div>
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="form-group">
+                <input type="text" class="form-control" placeholder="Post Code*" name="postcode">
+              </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-group">
+                <select class="form-control" name="ethnicity" id="">
+                  <option value="Ethnicity" selected="selected">-Ethnicity-</option>
+                  <option value="White Brithish">White Brithish</option>
+                  <option value="White Irish">White Irish</option>
+                  <option value="Any Other White Background">Any Other White Background</option>
+                  <option value="Mixed White & Black Carbbean">Mixed White & Black Carbbean</option>
+                  <option value="Mixed White & Black African">Mixed White & Black African</option>
+                  <option value="Mixed White & Asian">Mixed White & Asian</option>
+                  <option value="Any Other Mixed Background">Any Other Mixed Background</option>
+                  <option value="Indian">Indian</option>
+                  <option value="Pakistan">Pakistan</option>
+                  <option value="Bangladeshi">Bangladeshi</option>
+                  <option value="Any Other Asian Background">Any Other Asian Background</option>
+                  <option value="Carbbean">Carbbean</option>
+                  <option value="African">African</option>
+                  <option value="Any Other Black Background">Any Other Black Background</option>
+                  <option value="Chinese">Chinese</option>
+                  <option value="Any Other Ethnic Group">Any Other Ethnic Group</option>
+                  <option value="Not Stated">Not Stated</option>
+                </select>
+              </div>
+                </div>
+                
+              </div>
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="form-group">
+                <select class="form-control" name="employment" id="">
+                  <option value="Employment" selected="selected">-Employment-</option>
+                  <option value="Part time employment">Part time employment</option>
+                  <option value="Full time employment">Full time employment</option>
+                  <option value="Student">Student</option>
+                  <option value="Unemployed">Unemployed</option>
+                  <option value="Not Set">Not Set</option>
+                </select>
+              </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-group">
+                <select class="form-control" name="ability" id="">
+                  <option value="Ability" selected="selected">-Ability-</option>
+                  <option value="Candidates considers they have a learning dificulty and/or disability">Candidates considers they have a learning dificulty and/or disability</option>
+                  <option value="Candidates doesn't considers they have a learning dificulty and/or disability">Candidates doesn't considers they have a learning dificulty and/or disability</option>
+                  <option value="No Information Provided">No Information Provided</option>
+                  <option value="Not Set">Not Set</option>
+                </select>
+              </div>
+                </div>
+                
+              </div>
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="form-group">
+                <select class="form-control" name="delivery" id="">
+                  <option value="Delivery Method" selected="selected">-Delivery Method*-</option>
+                  <option value="New Entrant">New Entrant</option>
+                  <option value="On site assessment & training">On site assessment & training</option>
+                  <option value="Not Set">Not Set</option>
+                </select>
+              </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-group">
+                <input type="text" class="form-control" placeholder="Nationality" name="nationality">
+              </div>
+                </div>
+                
+              </div>
+              <div class="form-group">
+                <textarea name="details" id="" cols="30" rows="5" class="form-control" placeholder="Please tell us how you heard about Education House Leeds"></textarea>
+                
+              </div>
+
+              <h5 class="mb-4">Identification Documents</h5>
+              <div class="row">
+                <div class="col-sm-4">
+                  <div class="form-group">
+                <input type="text" class="form-control" placeholder="ID 1" name="id1">
+              </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="form-group">
+                <input  style="color: gray!important" class="form-control" type="text" placeholder="Valid From"  onfocus="(this.type='date')" onblur="(this.type='text')" name="validfrom1" />
+              </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="form-group">
+                <input  style="color: gray!important" class="form-control" type="text" placeholder="Valid Till"  onfocus="(this.type='date')" onblur="(this.type='text')" name="validto1" />
+              </div>
+                </div>
+                
+              </div>
+              <div class="row">
+                <div class="col-sm-4">
+                  <div class="form-group">
+                <input type="text" class="form-control" placeholder="ID 2" name="id2">
+              </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="form-group">
+                <input  style="color: gray!important" class="form-control" type="text" placeholder="Valid From"  onfocus="(this.type='date')" onblur="(this.type='text')" name="validfrom2" />
+              </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="form-group">
+                <input  style="color: gray!important" class="form-control" type="text" placeholder="Valid Till"  onfocus="(this.type='date')" onblur="(this.type='text')" name="validto2" />
+              </div>
+                </div>
+                
+              </div>
+              <h5 class="mb-4">Initial Assessment for English Language</h5>
+              <div class="row">
+                <div class="col-sm-4">
+                  <div class="form-group">
+                <label class="radio-inline">
+      <input type="radio" name="optradio" value="English is my first language"> English is my first language
+    </label>
+              </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="form-group">
+                <label class="radio-inline">
+      <input type="radio" name="optradio" value="English Language certificate is attached"> English Language certificate is attached
+    </label>
+              </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="form-group">
+                <label class="radio-inline">
+      <input type="radio" name="optradio" value="Other"> Other
+    </label>
+              </div>
+                </div>
+                
+              </div>
+              <h5 class="mb-4">Required Documents <small>(Please attach below mentioned with your Form)</small></h5>
+              <div style="text-align: center;" class="row">
+                <div class="col-sm-4">
+                  <div class="form-group">
+
+               <label for="">Passport (Valid)</label> 
+               <input type="file" class="form-control" name="passport">
+              </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="form-group">
+                 <label for="">Recent Photo</label> 
+                 <input type="file" class="form-control" name="photo">
+              </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="form-group">
+                    <label for="">Driving  License (Full/ Provisional )</label> 
+                <input type="file" class="form-control" name="driving">
+              </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="form-group">
+                    <label for="">Bank Statement or Bill ( Within last 3 months )</label>
+                <input type="file" class="form-control" name="bank">
+              </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="form-group">
+                    <label for="">Language Proficiency Certificate</label>
+                <input type="file" class="form-control" name="language">
+              </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="form-group">
+                    <label for="">Qualification copies (if applicable)</label>
+                <input type="file" class="form-control" name="qualification">
+              </div>
+                </div>
+                
+              </div>
+              <h5 class="mb-4">Eligibility Check for SIA badge</h5>
+              <div class="row">
+                <div class="col-6">
+                  <h6>Do you have any unspent criminal convictions? </h6>
+                </div>
+                <div class="col-3">
+                  <div class="form-group">
+                <label class="radio-inline">
+      <input type="radio" name="optradio2" value="yes">Yes
+    </label>
+              </div>
+                </div>
+                <div class="col-3">
+                 <div class="form-group">
+                <label class="radio-inline">
+      <input type="radio" name="optradio2" value="No"> No
+    </label>
+              </div>
+                </div>
+                
+              </div>
+              <div class="row">
+                <div class="col-6">
+                  <h6>Have you spent last five years legally  in the UK ?  </h6>
+                </div>
+                <div class="col-3">
+                  <div class="form-group">
+                <label class="radio-inline">
+      <input type="radio" name="optradio3" value="Yes"> Yes
+    </label>
+              </div>
+                </div>
+                <div class="col-3">
+                 <div class="form-group">
+                <label class="radio-inline">
+      <input type="radio" name="optradio3" value="No"> No
+    </label>
+              </div>
+                </div>
+                
+              </div>
+              <div class="row">
+                <div class="col-12">
+                 <div class="form-group">
+                <label class="radio-inline">
+      <input type="checkbox" name="optradio4" value="Please tick this box if you would like to receive* information about courses / training from eHouse Leeds. "> Please tick this box if you would like to receive* information about courses / training from <strong>eHouse Leeds</strong>. 
+    </label>
+              </div>
+                </div>
+                
+              </div>
+              <h5>Terms and Conditions</h5>
+              <small><p>• Training schedule is subject to change without prior notice</p>
+              <p>• Training fee must be paid in advance or on the date of registration of the training.</p>
+              <p>• Training cancellation by Education House Leeds because of unseen reasons is not refundable. </p>
+              <p>• Any student who abandons training session (s ) after the commencement of the course will not be entitled to refund of the fees paid.</p>
+              <p>• Registration fee is non refundable but it is adjustable in the total fee of the course (s) if it is applicable. 
+                </p></small>
+                  <h5>Privacy Notice</h5>
+              <small><p>Some of the information you supply will be used by the Skills Funding Agency to fulfil its statutory functions, issue /verify your University Learner Number (ULN) and update/check your Personal Learning Records. This Skills Funding Agency may share your ULN and Personal Learning Record with other education related organizations, such as your careers service, school , college, university, Government Departments and public bodies responsible for funding your education. Further details of how your information is processed and shared can be found in Induction Pack. 
+              </p></small>
+              <p><small><small>* We use digital messages ( text messages, email, whatsapp, viber and etc ) to  send information.</small></small></p>
+              <div class="row">
+                <div class="col-12">
+                 <div class="form-group">
+                <label class="radio-inline">
+      <input type="checkbox" name="optradio5" value="Please tick this box if you would like to receive* information about courses / training from eHouse Leeds. "> I hereby, declare information I have given in this form is correct. I further certify that I have read, understood and agree to comply with the terms and conditions of the registration / Enrolment. 
+    </label>
+              </div>
+                </div>
+                
+              </div>
+              <div class="form-group">
+                <input type="submit" name="submit" value="Submit" class="btn btn-primary py-3 px-5">
+              </div>
+            </form>
+          
+          </div>
+        </div>
+      </div>
+    </section>
+		
+
+<footer class="ftco-footer ftco-bg-dark ftco-section img" style="background-image: url(images/ds8.jpg); background-attachment:fixed;">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-4">
+            <div class="ftco-footer-widget mb-4">
+              <a class="navbar-brand" href="index.html"><img class="w-75" src="images/logo-white.png" alt=""></a>
+              <p>We are a training entity accredited by NOCN and NCFE which is an accredited organization known for its awards, professionalism and quality qualifications.</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="col-md-4">
+             <div class="ftco-footer-widget mb-4 ml-md-4">
+              <h2 class="ftco-heading-2">Site Links</h2>
+              <ul class="list-unstyled">
+                <li><a href="index.html" class="py-2 d-block">Home</a></li>
+                <li><a href="about.html" class="py-2 d-block">About</a></li>
+                <li><a href="training.html" class="py-2 d-block">Trainings</a></li>
+                <li><a href="contact.html" class="py-2 d-block">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Have a Questions?</h2>
+              <div class="block-23 mb-3">
+                <ul>
+                  <li><span class="icon icon-map-marker"></span><span class="text">5 - 11 Hares View Leeds, LS8 4LH UK</span></li>
+                  <li><a href="#"><span class="icon icon-phone"></span><span class="text">+44 (0)7455 222 161, +44 (0)113 322 6557</span></a></li>
+                  <li><a href="mailto:info@ehouse.org.uk"><span class="icon icon-envelope"></span><span class="text">info@ehouse.org.uk</span></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="ftco-footer-widget mb-4">
+              <div class="row">
+                <div class="col-md-4"><a class="navbar-brand" href="https://ehouse.org.uk/" target="_blank"><img class="w-100" src="images/logo2.png" alt=""></a></div>
+              <div class="col-md-8"><p>Securitytrainings is the project of Education House Leeds</p></div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <a style="color: #E62A31" href="https://ehouse.org.uk/" target="_blank">Education House Leeds</a>
+ </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+  
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
